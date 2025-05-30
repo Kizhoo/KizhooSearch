@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mesin Pencari Kizhoo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔎 Mesin Pencari Kizhoo</h1>
+    <form id="search-form">
+      <input type="text" id="query" placeholder="Cari apa aja di sini..." required>
+      <button type="submit">Cari</button>
+    </form>
+
+    <div class="filters">
+      <button data-type="text">🌐 Web</button>
+      <button data-type="image">🖼️ Gambar</button>
+      <button data-type="news">📰 Berita</button>
+      <button data-type="map">🗺️ Peta</button>
+    </div>
+
+    <div class="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
